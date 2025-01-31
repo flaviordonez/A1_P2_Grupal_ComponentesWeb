@@ -51,8 +51,7 @@ en una tabla para su visualización.
 Se crea id para los .CSS de cada componente.
 
 
-#Creacion del repositorio*************************
-
+# CREACION DEL REPOSITORIO
 …or create a new repository on the command line
 
 echo "# A1_P2_Grupal_ComponentesWeb" >> README.md
