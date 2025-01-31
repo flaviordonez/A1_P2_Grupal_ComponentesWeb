@@ -1,0 +1,31 @@
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #1e1e1e; /* Fondo oscuro para elegancia */
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    position: fixed;
+    top: 0;
+    left: 0; /* Asegura que se alinee al lado izquierdo */
+    width: 100vw; /* Se asegura de que ocupe todo el ancho de la ventana */
+    box-sizing: border-box; /* Para incluir padding en el cálculo del ancho */
+    z-index: 1000;
+    overflow-x: hidden; /* Evita el desplazamiento horizontal */
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffcc00; /* Amarillo dorado para resaltar */
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out, transform 0.2s ease-in-out;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    color: #1e1e1e;
+    background: #ffcc00;
+    transform: scale(1.1);
+}

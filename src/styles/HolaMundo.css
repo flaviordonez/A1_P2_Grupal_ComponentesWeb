@@ -1,0 +1,57 @@
+#containerHM {
+    background-color: #121212; /* Fondo aún más oscuro para mejorar el contraste */
+    color: #ffffff; /* Texto en blanco para contraste */
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.15); /* Sombra más suave y sutil */
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+#tituloHM {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #ff9900; /* Un amarillo más cálido que resalta mejor */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra para hacer que el título destaque */
+}
+
+#descripcionHM {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color: #d3d3d3; /* Gris suave para el texto secundario */
+}
+
+#subtituloHM {
+    font-size: 1.8rem;
+    margin-top: 30px;
+    color: #ff9900; /* Un tono de amarillo más cálido */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2); /* Sombra ligera para darle profundidad */
+}
+
+#listaHM {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#integranteHM {
+    font-size: 1.2rem;
+    padding: 10px;
+    background: #333333; /* Fondo oscuro para los elementos */
+    margin: 10px auto;
+    width: 60%;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out; /* Añadido efecto de transformación */
+}
+
+#integranteHM:hover {
+    background: #ff9900; /* Amarillo cálido para el hover */
+    color: #121212; /* Fondo oscuro con texto blanco cuando pasa el mouse */
+    font-weight: bold;
+    transform: scale(1.05); /* Efecto de escala para dar sensación de interacción */
+}

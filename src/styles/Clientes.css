@@ -1,0 +1,69 @@
+#h1C {
+    color: #00bcd4; /* Azul claro para diferenciarse */
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#inputC {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 8px;
+    font-size: 14px;
+    background-color: #222;
+    border: 1px solid #00bcd4;
+    color: white;
+    border-radius: 5px;
+}
+
+#h3C {
+    color: #00bcd4;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#tablaC {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #333;
+    color: white;
+}
+
+#tablaC th, #tablaC td {
+    padding: 10px;
+    border: 1px solid #00bcd4;
+    text-align: center;
+}
+
+#botonC {
+    background-color: #00bcd4;
+    border: none;
+    color: black;
+    padding: 8px 12px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#botonC:hover {
+    background-color: #008ba3;
+    color: white;
+}
+.container {
+    padding-top: 70px; /* Para dejar espacio por la barra de navegación fija */
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #1f61bc; /* Fondo más oscuro */
+    min-height: 100vh; /* Asegura que el contenedor tenga al menos la altura total de la pantalla */
+    box-sizing: border-box;
+  }
+  .botones-container {
+    display: flex; /* Alinea los botones en una fila */
+    justify-content: flex-start; /* Los botones estarán alineados hacia la izquierda */
+    gap: 10px; /* Espacio entre los botones */
+}
+  
