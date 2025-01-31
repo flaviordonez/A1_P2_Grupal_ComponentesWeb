@@ -1,3 +1,8 @@
+#INTEGRANTES
+Flavio Mauricio Ordoñez Montero
+Carlos Eduardo Cantuña Cela
+Pool Fernando Chinche Cordovillo
+
 # Para clonar el repositorio abrimos git sobre la carpeta donde queremos guardar e inicializamos con 
 git init
 
