@@ -1,4 +1,4 @@
-#INTEGRANTES  
+INTEGRANTES   
 Flavio Mauricio Ordoñez Montero  
 Carlos Eduardo Cantuña Cela  
 Pool Fernando Chinche Cordovillo  
