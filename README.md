@@ -3,6 +3,9 @@ Flavio Mauricio Ordoñez Montero
 Carlos Eduardo Cantuña Cela  
 Pool Fernando Chinche Cordovillo  
 
+# Creación del proyecto
+npm create vite@latest hotel -- --template react-ts
+
 # Para clonar el repositorio abrimos git sobre la carpeta donde queremos guardar e inicializamos con 
 git init
 
